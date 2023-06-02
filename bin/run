@@ -1,0 +1,4 @@
+require_relative '../config/environment'
+
+freebie = Freeby.new(dev: "Alex", item_name: "bags", company: "Zuku" )
+puts freebie.dev
